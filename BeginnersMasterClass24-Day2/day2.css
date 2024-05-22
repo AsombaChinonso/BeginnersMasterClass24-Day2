@@ -1,0 +1,45 @@
+
+/* 
+Pls take note that the asterisk is called a universal selector - this mean that
+any css property written inside it will affect every part of your code
+ */
+
+/* * {
+    background-color: #1FBB7F;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+body{
+    background-color: #1FBB7F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.button_class{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border: none;
+    transition: ease-in;
+    transition-duration: 300ms;
+    border-radius: 45px;
+    
+
+    /* 
+        half of 1s = 500ms
+     */
+
+}
+
+.button_class:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.nonos_image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
